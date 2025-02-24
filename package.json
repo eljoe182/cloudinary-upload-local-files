@@ -1,0 +1,16 @@
+{
+  "name": "cloudinary-upload-local-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.7"
+  }
+}
