@@ -27,7 +27,10 @@ const uploadImage = async (image) => {
   }
 
   try {
-    return cloudinaryInstance.uploader.upload(image, options);;
+    return cloudinaryInstance.uploader.upload(image, options).catch((error) => {
+      console.error(error);
+      return null;
+    });
   } catch (error) {
     console.error(error);
   }
